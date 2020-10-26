@@ -1,0 +1,37 @@
+/* via https://pastebin.com/qsgv3BnX */
+
+body, .psw-root body, .tertiary-tabs {
+    color:white !important;
+    fill: white !important;
+    background-color: #000 !important;
+    padding:0 0 0 0 !important;
+}
+ 
+/* Price Title */
+.price, .product-detail, .ems-sdk-product-tile .price {
+    color:white !important;
+    /* font-weight:bold; */
+}
+
+ 
+/* Main Store Top Nav Bar */
+#jetstream-tertiary-nav {
+    background-color:black !important;
+    fill:black !important;
+}
+ 
+#jetstream-tertiary-nav .tertiary-menu-cta, #jetstream-tertiary-nav .tertiary-tab__link, #jetstream-tertiary-nav .tertiary-tab__link:focus, #jetstream-tertiary-nav .tertiary-tab__link:hover, #jetstream-tertiary-nav .tertiary-tab__link:visited {
+    color:white !important;
+    background-color:black !important;
+    fill:black !important;
+}
+ 
+[dir] #jetstream-tertiary-nav .tertiary-container:not(.tertiary-container--overflow) .tertiary-tab__link, [dir] #jetstream-tertiary-nav .tertiary-container:not(.tertiary-container--overflow) .tertiary-tab__link:hover, [dir] #jetstream-tertiary-nav .tertiary-container:not(.tertiary-container--overflow) .tertiary-tab__link:focus, [dir] #jetstream-tertiary-nav .tertiary-container:not(.tertiary-container--overflow) .tertiary-tab__link:visited, [dir] #jetstream-tertiary-nav .tertiary-container:not(.tertiary-container--overflow) .tertiary-tab__link.tertiary-tab__link--active {
+    color:white !important;
+    background-color:black !important;
+    fill:black !important;
+}
+ 
+#jetstream-tertiary-nav {
+    fill: white !important;
+}
