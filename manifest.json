@@ -1,0 +1,17 @@
+{
+    "name": "PlayStation Web Store Enhancer",
+    "version": "1.0",
+    "description": "Adds game titles underneath the game icons!",
+    "content_scripts": [
+        {
+            "run_at": "document_start",
+            "matches": [
+                "https://store.playstation.com/*"
+            ],
+            "js": [
+                "contentScript.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
