@@ -2,15 +2,14 @@
 
 body, .psw-root body, .tertiary-tabs {
     color:white !important;
-    fill: white !important;
+    /* fill: white !important; */
     background-color: #000 !important;
     padding:0 0 0 0 !important;
 }
  
 /* Price Title */
-.price, .product-detail, .ems-sdk-product-tile .price {
+.price, .product-detail, .ems-sdk-product-tile .price, .search-results h1, .search-results h1 em {
     color:white !important;
-    /* font-weight:bold; */
 }
 
  
@@ -34,4 +33,9 @@ body, .psw-root body, .tertiary-tabs {
  
 #jetstream-tertiary-nav {
     fill: white !important;
+}
+
+/* search bar */
+.search-text-box__input {
+    background-color:black !important;
 }

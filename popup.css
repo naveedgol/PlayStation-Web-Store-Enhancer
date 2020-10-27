@@ -3,6 +3,11 @@ body
     width: 250px;
 }
 
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
 .refresh {
     margin:10px auto;
     text-align: center;
@@ -11,4 +16,5 @@ body
 .box {
     height: 15px;
     width: 15px;
+    margin-right: 5px;
 }
