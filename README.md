@@ -4,8 +4,8 @@ A chrome extension to enhance the [PlayStation web store](https://store.playstat
 - Displays game titles underneath game tiles
 - Settings allow toggling of any feature listed above 
 
-# Comparison
-## Original
+## Screenshot Comparison
+### Original
 ![original.png](./screenshots/original.png)
-## Enhanced
+### Enhanced
 ![enhanced.png](./screenshots/enhanced.png)
